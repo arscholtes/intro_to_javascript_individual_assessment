@@ -29,7 +29,7 @@ var greeting = "Hello, how are you? " + givenName;
 var high = 50;
 var low  = 10;
 var math = high - low;
-// A:50 - 10
+// A:40
 
 
 // 6.
