@@ -15,7 +15,7 @@ givenName = "Tim";
 // 3.
 // What is `givenName` set to right now?
 givenName = givenName;
-// A:it is set to itself
+// A:givenName
 
 
 // 4.
@@ -35,7 +35,7 @@ var math = high - low;
 // 6.
 // What is `math` set to?
 math = high - "5";
-// A:
+// A:it is set to 'high' - '5'
 
 
 // 7.
@@ -88,12 +88,12 @@ muyUndefined = myUndefined;
 
 // 11.
 var x = (false == 0);
-// A.false
+// A.true
 
 
 // 12.
 var y = (false == "");
-// A.false
+// A.true
 
 
 // 13.
@@ -113,7 +113,7 @@ var b = (undefined == undefined);
 
 // 16.
 var c = (undefined == null);
-// A.false
+// A.true
 
 
 // 17.
@@ -123,12 +123,12 @@ var d = (null == false);
 
 // 18.
 var e = (NaN == null);
-// A.true
+// A.false
 
 
 // 19.
 var f = (NaN == NaN);
-// A.true
+// A.false
 
 
 // 20.
@@ -136,7 +136,7 @@ var f = (NaN == NaN);
 // Use the variable `thirsty` as part of your conditional expression.
 // A:
 var thirsty = true;
-if thirsty = true{
+if (thirsty) = true{
   console.log("I'm parched!");
 } else {
   console.log("I've had enough to drink.");
@@ -152,7 +152,7 @@ if(x){
 } else {
 	console.log("False!");
 }
-// A:true
+// A:false
 
 // 22.
 if(""){
@@ -181,7 +181,7 @@ if(false){
 } else {
 	console.log("False!");
 }
-// A:true
+// A:false
 
 
 // 25.
@@ -217,7 +217,7 @@ if({name: "Yehuda Katz"}){
 } else {
 	console.log("False!");
 }
-// A:false
+// A:true
 
 
 // 29.
