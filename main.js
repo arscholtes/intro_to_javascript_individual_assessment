@@ -81,7 +81,7 @@ var myUndefined;
 myNumber = 5;
 myString = 'hello world';
 myBoolean = true;
-muyUndefined = myUndefined;
+muyUndefined;
 
 
 // For questions 11 - 19: List which boolean value will be stored in each variable. (Remember: `==` does not check data type)
