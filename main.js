@@ -21,7 +21,7 @@ givenName = givenName;
 // 4.
 // What is `greeting` set to?
 var greeting = "Hello, how are you? " + givenName;
-// A:Hello, how are you? givenName
+// A:Hello, how are you? Tim
 
 
 // 5.
